@@ -70,7 +70,7 @@ var getMoviePoster = function (movie) {
                 //Pass to Local Storage
                 movieStorage(movieTitle, movieGenre);
 
-                // Pass Movie Title and Poster to displayPoster Function
+               
                 displayPoster(movieTitle, moviePoster);
                 var lastMovie = JSON.parse(localStorage.getItem("movies"));
                 getRecipes(lastMovie[lastMovie.length - 1]);

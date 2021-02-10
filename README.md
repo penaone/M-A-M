@@ -35,7 +35,7 @@ Christopher Walston
 
 ## Summary
 This is your perfect date night website. You pick the movie and it generates meal options for a date.
-You can see all the commits at https://github.com/Richardflores009
+For a full commit history go to https://github.com/Richardflores009
 
 ## Contact:
 []<br>
