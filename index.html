@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="./assets/img/favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="assets/style/styles.css">
+    <title>Munch-A-Movie</title>
+</head>
+
+<body>
+    <!--Page Header-->
+    <header>
+        <nav class="nav-extended center">
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo center">Munch-A-Movie</a>
+            </div>
+            <div class="nav-content">
+                <span class="nav-title center">your solution to movie night munchies</span>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!--User Input-->
+        <div class="row form-background">
+            <form class="col white form-style s10 m10 l6">
+                <h4>What movie are you watching tonight?</h4>
+                <div class="row">
+                    <div class="input-field col s12 m12 l12">
+                        <input placeholder="Avengers, Coco, etc." class="validate" id="food-search-input" type="text">
+                    </div>
+                </div>
+                <button class="btn waves-effect waves-light" type="submit"> <i class="fa fa-search"></i> Search</button>
+            </form>
+        </div>
+
+        <!--Left Column | Search History-->
+        <div class="row">
+            <div class="col s12 m12 l2 row-color">
+                <h4 id ="searched-movies" class="column-header center">History</h4>
+                <div id="search-history" class="collection center box-shadow">
+                </div>
+            </div>
+
+            <!--Middle Column | Movie Poster-->
+            <div id="poster-container" class="col s12 m5 l4 row-color">
+            </div>
+
+            <!--Right Column | Recipes-->
+            <div id="recipe-list" class="col s12 m7 l6 row-color">
+                <div>
+                    <h4 class="column-header center" id="recipes-header">Recipes</h4>
+                </div>
+                <div id="recipes-content">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Error Modal -->
+    <div id="modal-error" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <p>There was an error processing your request. Please try again. </p>
+        </div>
+    </div>
+
+    <!-- Blank User Input Modal -->
+    <div id="modal-blank" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <p>Please enter a movie name. </p>
+        </div>
+    </div>
+
+    <!--Scripts-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
