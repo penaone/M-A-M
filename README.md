@@ -31,7 +31,7 @@ Christopher Walston
 
 ## Link to deployed application
 ******************************************************************************************************************************************************************************************************************************
-[Munch-A-Movie webpage link] (https://richardflores009.github.io/Munch-A-Movie/)
+[Munch-A-Movie webpage link] (https://penaone.github.io/M-A-M/)
 
 ## Summary
 This is your perfect date night website. You pick the movie and it generates meal options for a date.
